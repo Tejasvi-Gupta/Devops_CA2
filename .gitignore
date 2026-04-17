@@ -1,0 +1,28 @@
+# Node modules (the usual suspect)
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables (don’t leak secrets like a rookie)
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Docker
+*.tar
+
+# IDE/editor junk
+.vscode/
+.idea/
+
+# Optional: coverage reports
+coverage/
